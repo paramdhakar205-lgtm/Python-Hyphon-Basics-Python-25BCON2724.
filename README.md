@@ -1,4 +1,3 @@
 # Python-Hyphon-Basics-Python-25BCON2724.
-Python factorial code.
-Python Fibonacci code.
-Python Student Struct code.
+Codes written in C and translated using an AI model to Python.
+Viewers can change and edit the code if they like.

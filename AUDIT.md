@@ -81,3 +81,65 @@ These programs are created for practicing **basic Python programming, loops, con
 ---
 
 **Made with Python 🐍**
+# 📊 Program Comparison
+
+| Feature | Factorial | Fibonacci | Prime Checker | Armstrong Checker | Pronic Checker |
+|---|---|---|---|---|---|
+| **Main Purpose** | Calculate factorial | Generate sequence | Check prime number | Check Armstrong number | Check Pronic number |
+| **Input** | One integer | Number of terms | One integer | One integer | One integer |
+| **Main Concept** | Multiplication | Sequence generation | Divisibility | Digit manipulation | Consecutive multiplication |
+| **Loops Used** | `for` | `for` / `while` | `for` | `while` | `for` |
+| **Conditions Used** | `if / elif / else` | Optional | `if / else` | `if / else` | `if / else` |
+| **Arithmetic** | Multiplication | Addition | Modulo `%` | Power `**`, modulo `%` | Multiplication |
+| **Digit Extraction** | ❌ | ❌ | ❌ | ✅ | ❌ |
+| **Uses `break`** | ❌ | ❌ | ✅ | ❌ | ✅ |
+| **Handles Special Cases** | Negative & zero | Initial terms | ≤ 1 | Zero/single digit cases | Zero/small numbers |
+| **Difficulty** | 🟢 Easy | 🟢 Easy | 🟢 Easy | 🟡 Moderate | 🟢 Easy |
+| **Core Skill** | Loops & arithmetic | Variables & loops | Logic & divisibility | Mathematical logic | Loop-based logic |
+| **Status** | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass |
+
+## 🏆 Complexity Comparison
+
+| Program | Basic Time Complexity | Space Complexity |
+|---|---:|---:|
+| Factorial | O(n) | O(1) |
+| Fibonacci | O(n) | O(1)* |
+| Prime Checker | O(n) | O(1) |
+| Armstrong Checker | O(d) | O(1) |
+| Pronic Checker | O(n) | O(1) |
+
+> **Note:** `d` represents the number of digits in the number.  
+> *For the simple iterative Fibonacci implementation.
+
+## 🎯 Concept Comparison
+
+```text
+Factorial
+    ↓
+Multiplication + Loops
+
+Fibonacci
+    ↓
+Addition + Variable Updates + Loops
+
+Prime
+    ↓
+Divisibility + Conditions
+
+Armstrong
+    ↓
+Digit Extraction + Powers + Loops
+
+Pronic
+    ↓
+Consecutive Numbers + Multiplication + Loops
+```
+
+### Overall Comparison
+
+**Easiest:** Factorial / Fibonacci  
+**Logic-focused:** Prime / Pronic  
+**Most mathematical:** Armstrong  
+**Best for practicing digit manipulation:** Armstrong  
+**Best for practicing divisibility:** Prime  
+**Best for sequence logic:** Fibonacci

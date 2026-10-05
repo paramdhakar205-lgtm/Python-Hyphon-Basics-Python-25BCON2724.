@@ -2,8 +2,8 @@ num = int(input("Enter a number: "))
 
 factorial = 1
 
-if num < 0:
-    print("Factorial does not exist for negative numbers.")
+if num < 0: # Python Factorial Code.
+    print("Factorial does not exist for negative numbers.") 
 elif num == 0:
     print("The factorial of 0 is 1.")
 else:
